@@ -1,0 +1,44 @@
+body {
+    background-color: #4912f6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+input, button {
+    background-color: #ea9e3d;
+    color: white;
+    border-radius: 30px;
+    border: 0px;
+    padding: 15px;
+    font-size: 14pt;
+    background-image: linear-gradient(to right, #ea9e3d , #ee7b38);
+}
+
+.head-section {
+    
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.head-section-1 {
+    flex-grow: 30;
+    
+}
+
+.head-section-2 {
+    flex-grow: 12;
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+    align-self: center;
+    color: white;
+
+}
+
+.head-section-3 {
+    flex-grow: 12;
+    justify-content: start;
+    align-self: center;
+    
+}
