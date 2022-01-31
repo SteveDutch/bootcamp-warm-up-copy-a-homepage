@@ -2,6 +2,7 @@ body {
     background-color: #4912f6;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
+    color: white;
 }
 
 input, button {
@@ -41,4 +42,33 @@ input, button {
     justify-content: start;
     align-self: center;
     
+}
+
+.middle-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.middle-section-left {
+    flex-grow: 1;
+    max-width: 50%;
+}
+
+.middle-section-right {
+    /* width: 545px; 
+    height: 500px; */
+    flex-grow: 2;
+    align-self: stretch;
+    flex-shrink: 1
+}
+
+#image-middle-section-right {
+    
+    height: 350px;
+  }
+
+#uppercase {
+    text-transform: uppercase;
+    font-size: 7pt;
 }
