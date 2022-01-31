@@ -68,6 +68,40 @@ input, button {
     height: 350px;
   }
 
+.transition-to-science {
+    text-align: center;
+    font-weight: bold;
+    margin:130px;
+
+}
+
+.science-section {
+    display: grid;
+    /* column-gap: 10px;
+    row-gap: 10px; */
+    grid-template-columns: auto auto;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+/* .science-image-1 {
+    grid-row: 1;
+}
+
+.science-image-2 {
+    grid-row: 1;
+
+}
+
+.science-text-1 {
+    grid-row: 1;
+}
+
+.science-text-2 {
+    grid-row: 1;
+} */
+
 #uppercase {
     text-transform: uppercase;
     font-size: 7pt;
