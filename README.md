@@ -1,2 +1,2 @@
 # stefan-assignment-1
-first assignment
+copy an existing homepage with own code
